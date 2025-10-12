@@ -1,0 +1,9 @@
+.idea/
+checkpoints/
+reconstructed_data/
+score/
+test_results/
+View/
+__pycache__/
+*.pyc
+

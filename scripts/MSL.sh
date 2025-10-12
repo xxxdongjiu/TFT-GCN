@@ -1,0 +1,11 @@
+python -u run.py  --is_training 1 \
+    --root_path /home/xusheng/dataset/MSL \
+    --data MSL \
+    --seq_len 100 \
+    --enc_in 55 \
+    --c_out 55 \
+    --d_model 8 \
+    --d_ff 32 \
+    --anomaly_ratio 1.5 \
+    --batch_size 256 \
+    --train_epochs 5 

@@ -1,0 +1,10 @@
+python -u run.py  --is_training 1 \
+    --root_path /home/xusheng/dataset/SWaT \
+    --data SWAT \
+    --seq_len 100 \
+    --enc_in 51 \
+    --c_out 51 \
+    --d_model 32 \
+    --anomaly_ratio 1 \
+    --batch_size 128 \
+    --train_epochs 3
